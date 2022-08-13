@@ -1,6 +1,6 @@
 # say-bot
 
-
+```
 client.on('message', message => {
     if (message.content.startsWith( `${prefix}say`)) {
         if (message.author.bot) return;
@@ -10,3 +10,4 @@ client.on('message', message => {
     
     }   
 });
+```
